@@ -1,0 +1,65 @@
+/* Global styles =================================================================================================*/
+
+* {
+  @include border-box;
+}
+
+body {
+  @include font-feature-settings(kern);
+  background-color: #e9edf2;
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-kerning: normal;
+  font-weight: $base-font-weight;
+  line-height: $line-height;
+  text-rendering: optimizelegibility;
+  margin: 0;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+img, svg {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  color: $link-color;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+a {
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.toc {
+  @include font-size(24);
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 5rem 3% 3%;
+}
+
+.container {
+  @extend %clearfix;
+  @include rem('padding', 30px);
+  background-color: white;
+  border: 1px solid $border-color;
+}
+
+hr {
+  background-color: #fff;
+  border: 0;
+  border-top: 1px dashed $border-color;
+  margin: 30px 0;
+}

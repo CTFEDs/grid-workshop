@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flow root</title>
+  <style>
+
+  body {
+    font-family: sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    background-color: MistyRose;
+    border-radius: 5px;
+    border: 2px solid #e5dbff;
+    margin:  0 auto;
+    padding: 1rem;
+    width: 400px;
+
+    /* overflow: hidden; */
+     /*display: flow-root;*/
+
+  }
+
+  .box {
+    float: left;
+    width: 200px;
+    border: 2px solid #e5dbff;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+
+</style>
+</head>
+
+<body>
+  <h1>Block Formatting Context - display: flow-root</h1>
+  <div class="container">
+    <div class="box">
+      I am floated left.
+    </div>
+  </div>
+</body>
+</html>

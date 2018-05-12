@@ -1,0 +1,132 @@
+// Flexbox stuffs
+
+.flexbox {
+  // display: flex;
+  // flex-direction: column;
+  // flex-direction: column-reverse;
+  // flex-direction: row; // default
+  // flex-direction: row-reverse;
+  // flex-wrap: wrap;
+  // flex-flow: row wrap; // shorthand property for direction and wrap
+  // align-items: center;
+  // justify-content: space-around;
+}
+
+.flexbox-item {
+  // flex: 1; // equal amount of space
+  // flex: 1 1 0;
+  // flex: 1 1 200px; // minimum size
+  // flex: 0 0 200px;
+  // flex: 0 0 100px;
+
+  background: linear-gradient(to bottom, #1dd2af, #17a689);
+  color: #fff;
+  overflow-x: hidden;
+  padding: 1.5rem;
+  font-size: 150%;
+
+  &:nth-child(1),
+  &:nth-child(4),
+  &:nth-child(7),
+  &:nth-child(10) {
+    background: #fed26a;
+    background: linear-gradient(to bottom, #fed26a, #fec238);
+  }
+
+  &:nth-child(2),
+  &:nth-child(5),
+  &:nth-child(9),
+  &:nth-child(14) {
+      background: #7ad0ff;
+      background: linear-gradient(to bottom, #7ad0ff, #47beff);
+  }
+
+  &:nth-child(3),
+  &:nth-child(6),
+  &:nth-child(12) {
+    background: #df6974;
+    background: linear-gradient(to bottom, #df6974, #d73f4e);
+  }
+}
+
+.flexbox-align {
+  display: flex;
+  align-items: flex-end; // align from end
+  min-height: 200px;
+  flex-wrap: wrap;
+
+  > div {
+    // flex: 0 0 200px;
+  }
+
+}
+
+.item-one {
+   align-self: stretch; // will stretch to fill container
+}
+.item-two {
+   align-self: flex-start; // start of flex contoner
+}
+
+
+// Ordering
+
+.flexbox-order {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexbox-item.flexbox-order-item {
+  flex: 1 1 300px;
+  margin-bottom: 1rem;
+
+  &:nth-of-type(4) {
+    // flex: 0 0 500px;
+    // order: 0;
+  }
+
+}
+
+// Grid
+
+.flexbox-grid {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+}
+
+.flexbox-grid-item {
+  // flex: 1 1 300px;
+  margin-bottom: 1rem;
+
+  @include breakpoint(30em) {
+    flex: 0 1 calc(50% - 1em);
+  }
+
+  @include breakpoint(40em) {
+    flex: 0 1 calc(33.33333333% - 1em);
+  }
+
+  @include breakpoint(75.063em) {
+    flex: 0 1 calc(16.66666666% - 1em);
+  }
+}
+
+.cenrtre-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40em;
+  background: linear-gradient(to bottom, #df6974, #d73f4e);
+}
+
+.center-aligner-item {
+  max-width: 30%;
+  color: white;
+  background: linear-gradient(to bottom, #7ad0ff, #47beff);
+  width: 100%;
+  padding: .8em 1em;
+  border-radius: 3px;
+}
+
+

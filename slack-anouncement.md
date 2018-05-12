@@ -1,0 +1,1 @@
+via @justinslack and #front-end-dev: The next CTFEDs workshop will be a rerun of our speaker workshop for Global Diversity CFP day (https://www.globaldiversitycfpday.com/) on 3 February. Sign up here: https://www.meetup.com/ctfeds/events/245587105/

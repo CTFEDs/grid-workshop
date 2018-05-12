@@ -1,0 +1,27 @@
+
+title: CSS layouts - Flexible boxes and Grids workshop 2017
+baseurl: "/CSS-layouts---Flexible-boxes-and-Grids-workshop-2017" # the subpath of your site, e.g. /blog/
+
+markdown: kramdown
+permalink: :title/
+
+navigation:
+ - title: CSS layouts - Flexible boxes and Grids workshop 2017
+   url: index.html
+
+exclude: [
+    'node_modules',
+    'bower_components',
+    'Gruntfile.js',
+    'package.json',
+    'bower.json',
+    'requirements.txt',
+    'Gemfile',
+    'Gemfile.lock',
+    'README.md',
+    'sass',
+    'js',
+    'coffee',
+    'env',
+    'tmp'
+]
