@@ -4,25 +4,31 @@
 
 Workshop: CSS grid
 
+---
+
+**About you**
+
+You should have a working knowledge of HTML and CSS. Please bring a laptop if you have one as we will be doing some hands-on coding.
+
+---
+
+**The workshop**
+
+Open Design Cape Town ( http://opendesignct.com/ ) says that design is the unifying thread that links innovation, education and community as the building blocks of a sustainable, inclusive, prosperous society. Front-end development is how we bring to life those designs. Go us! 🙌
+
 Since the web's beginnings developers have used all manner of techniques to control the layout of web pages. From tables, to floats, to `inline-block` and all manner of positioning and display properties, these techniques have all had one thing in common: they are by and large hacks. :)
 
 First we had widespread browser adoption of flexbox. Now we have modern standards for CSS layouts with CSS Grid.
 
 In this workshop we will learn how to use grid for laying out web pages and components.
 
---
+---
 
-About the facilitators
+About the facilitator
 
 Justin Slack is head of design, user experience, and front-end development at NML (https://nml.co.za). He is fluent in HTML and CSS, and slightly obsessive about typography, web standards, and user experience.
 
 Twitter: @justin_r_slack (https://twitter.com/justin_r_slack)
-
---
-
-**About you**
-
-You should have a working knowledge of HTML and CSS. Please bring a laptop if you have one as we will be doing some hands-on coding.
 
 --
 
