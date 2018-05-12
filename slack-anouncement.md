@@ -1,1 +1,1 @@
-via @justinslack and #front-end-dev: The next CTFEDs workshop will be a rerun of our speaker workshop for Global Diversity CFP day (https://www.globaldiversitycfpday.com/) on 3 February. Sign up here: https://www.meetup.com/ctfeds/events/245587105/
+via @justinslack @steve @slinky_bass and #front-end-dev: The next CTFEDs workshop will be all about CSS grid on 18 August 2018. Sign up here: https://www.meetup.com/ctfeds/events/250713894/
