@@ -1,7 +1,7 @@
 autoscale: true
 build-lists: true
 
-# CSS Flexible Box and Grid Layout
+# CSS Grid Layout
 
 ---
 
@@ -16,26 +16,36 @@ build-lists: true
 - Complex nested tables
 - inline styles (such as they were)
 - spacer gifs
-- absolutely no flexibility
+
+---
+
+# Layouts in the dark ages (the 90s)
+
 - animated gifs, `marquee` etc
 - geocities
 
 ---
 
+# Layouts in the dark ages (the 90s)
+
+- absolutely no flexibility
+
+---
+
 # Table layouts
 
-```
-<table BGCOLOR="#ccccff" BORDER=10 BORDERCOLOR="#0000FF" BORDERCOLORLIGHT="#33CCFF" BORDERCOLORDARK="#0000CC" WIDTH="80%" ALIGN="CENTER">
-  <tr>
-    <td>
-      <h1 align="center">
+``` html
+<TABLE BGCOLOR="#CCCCFF" BORDER=10 BORDERCOLOR="#0000FF" BORDERCOLORLIGHT="#33CCFF" BORDERCOLORDARK="#0000CC" WIDTH="80%" ALIGN="CENTER">
+  <TR>
+    <TD>
+      <H1 align="center">
         <FONT SIZE="3" COLOR="red" FACE="verdana">
           Welcome to my home page!
         </FONT>
-      </h1>
-    </td>
-  </tr>
-</table>
+      </H1>
+    </TD>
+  </TR>
+</TABLE>
 ```
 
 ---

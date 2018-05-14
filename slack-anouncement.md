@@ -1,1 +1,1 @@
-via @justinslack @steve @slinky_bass and #front-end-dev: The next CTFEDs workshop will be all about CSS grid on 18 August 2018. Sign up here: https://www.meetup.com/ctfeds/events/250713894/
+via @justinslack @steve @slinky_bass and #front-end-dev: The next CTFEDs workshop will be all about CSS grid and will take place on 18 August 2018 at 1pm. Sign up here: https://www.meetup.com/ctfeds/events/250713894/
