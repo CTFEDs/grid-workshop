@@ -2,8 +2,19 @@
 
 ## Opening activity (as people arrive)
 
-- Who will you share the stuff from the workshop with? (tie this in to SMART goal at end)
-- Share your answer with 3 people.
+- How many CSS `display` properties can you think of?
+- Write them on the sticky notes.
+- Stick to wall
+
+---
+
+## Formatting con-text (5m)
+
+- Discuss formatting context in relation to box model
+
+> ...the environment into which a set of related boxes are laid out. Different formatting contexts lay out their boxes according to different rules. For example, a flex formatting context lays out boxes according to the flex layout rules CSS3-FLEXBOX, whereas a block formatting context lays out boxes according to the block-and-inline layout rules CSS2.
+
+- [Formatting context in the W3C specs](<https://drafts.csswg.org/css-display-3/#formatting-context>)
 
 ---
 
@@ -16,16 +27,6 @@
 - Display properties - `inline-block`, `table`
 - Positioning - `relative`, `absolute`
 - Columns - multiple column layout
-
----
-
-## Formatting con-text (5m)
-
-- Discuss formatting context in relation to box model
-
-> ...the environment into which a set of related boxes are laid out. Different formatting contexts lay out their boxes according to different rules. For example, a flex formatting context lays out boxes according to the flex layout rules CSS3-FLEXBOX, whereas a block formatting context lays out boxes according to the block-and-inline layout rules CSS2.
-
-- [Formatting context in the W3C specs](<https://drafts.csswg.org/css-display-3/#formatting-context>)
 
 ---
 
