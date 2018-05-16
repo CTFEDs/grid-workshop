@@ -14,13 +14,9 @@ You should have a working knowledge of HTML and CSS. Please bring a laptop if yo
 
 **The workshop**
 
-Open Design Cape Town ( http://opendesignct.com/ ) says that design is the unifying thread that links innovation, education and community as the building blocks of a sustainable, inclusive, prosperous society. Front-end development is how we bring to life those designs. Go us! 🙌
+Since the web's beginnings front-end developers have used all manner of techniques to control the layout of web pages. From tables, to floats, positioning, and display properties, these techniques have all had one thing in common: they are by and large hacks.
 
-Since the web's beginnings developers have used all manner of techniques to control the layout of web pages. From tables, to floats, to `inline-block` and all manner of positioning and display properties, these techniques have all had one thing in common: they are by and large hacks. :)
-
-First we had widespread browser adoption of flexbox. Now we have modern standards for CSS layouts with CSS Grid.
-
-In this workshop we will learn how to use grid for laying out web pages and components.
+As a result design on the web has been difficult because of a lack of real tools for creating layouts. With the advent of Flexbox and latterly CSS Grid, we are finally getting tools to do design on the web. Join us for an afternoon exploring CSS Grid layouts.
 
 ---
 

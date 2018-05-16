@@ -1,29 +1,60 @@
 autoscale: true
 
 ## *CTFEDs*
-# Flexbox and grid
+# CSS grid layout
+
+![](content/img/layout.jpg)
 
 ---
 
-# About us
+# About me
 
-![](content/img/caitlyn.jpeg) ![](content/img/justin.jpeg)
+![](content/img/justin.jpeg)
 
-^ Of us
+^ Of me
 
 ---
+
+# What we will do
+
+---
+
+# Recap layout techniques
+
+---
+
+# Grid concepts and properties
+
+---
+
+# Image gallery
+
+--
+
+# Build a layout with grid
+
+![](content/img/justin.jpeg)
+
+--
 
 # Table intros
 ## Grab a pen and stickies
 
 ---
 
-### *What do you want to learn?*
-### *Why are you here today?*
+# How many CSS `display` properties can you think of?
 
 ---
 
-## Put stickies on wall
+# Discuss at you table
+
+---
+
+# Write them on the sticky notes
+
+---
+
+# Put stickies on wall
 
 ---
 
@@ -61,4 +92,4 @@ autoscale: true
 
 ---
 
-# Thanks! *:)*
+# Thanks! :smile:
