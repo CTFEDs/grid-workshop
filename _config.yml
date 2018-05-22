@@ -1,12 +1,12 @@
 
 title: CSS layouts - Grid workshop 2018
-baseurl: "/grid-workshop/" # the subpath of your site, e.g. /blog/
+baseurl: "grid-workshop/" # the subpath of your site, e.g. /blog/
 
 markdown: kramdown
 permalink: :title/
 
 navigation:
- - title: CSS layouts - Flexible boxes and Grids workshop 2017
+ - title: CSS layouts - Grid workshop 2018
    url: index.html
 
 exclude: [
