@@ -1,9 +1,15 @@
 autoscale: true
 
-## *CTFEDs*
+# *CTFEDs*
+
 # CSS grid layout
 
 ![](content/img/layout.jpg)
+
+---
+
+
+## https://ctfeds.org/grid-2018/
 
 ---
 
@@ -29,13 +35,11 @@ autoscale: true
 
 # Image gallery
 
---
+---
 
 # Build a layout with grid
 
-![](content/img/justin.jpeg)
-
---
+---
 
 # Table intros
 ## Grab a pen and stickies
