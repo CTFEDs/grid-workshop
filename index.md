@@ -13,5 +13,5 @@ The source for this workshop is available as a git repository on GitHub: [CTFEDs
 
 * [Workshop Outline](workshop-outline/)
 * [Workshop slides](deck.pdf) (PDF, 4MB)
-    * [Deckset](http://decksetapp.com/)-flavoured markdown that it comes from: [deck.md](deck.md)
+    * [Deckset](http://decksetapp.com/)-flavoured markdown that it comes from: [deck.md](/decks/deck.md)
 
