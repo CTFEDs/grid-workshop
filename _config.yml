@@ -1,6 +1,6 @@
 
-title: CSS layouts - Flexible boxes and Grids workshop 2017
-baseurl: "/CSS-layouts---Flexible-boxes-and-Grids-workshop-2017" # the subpath of your site, e.g. /blog/
+title: CSS layouts - Grid workshop 2018
+baseurl: "/grid-workshop/" # the subpath of your site, e.g. /blog/
 
 markdown: kramdown
 permalink: :title/
