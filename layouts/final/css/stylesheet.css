@@ -24,6 +24,8 @@
   font-display: swap;
 }
 
+/* General styles */
+
 * {
   box-sizing: border-box;
 }
@@ -38,6 +40,12 @@ body {
   line-height: 1.25;
   margin: 0;
   padding: 0;
+}
+
+/* Grid things */
+
+main {
+  display:  grid;
 }
 
 
