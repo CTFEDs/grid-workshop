@@ -25,74 +25,78 @@ autoscale: true
 
 ---
 
-# Recap layout techniques
+## Recap layout techniques
 
 ---
 
-# Grid concepts and properties
+## Grid concepts and properties
 
 ---
 
-# Image gallery
+## Image gallery
+
+![](content/img/gallery.png)
 
 ---
 
-# Build a layout with grid
+## Build a layout with grid
 
 ---
 
-# Table intros
-## Grab a pen and stickies
-
----
-
-# How many CSS `display` properties can you think of?
-
----
-
-# Discuss at you table
-
----
-
-# Write them on the sticky notes
-
----
-
-# Put stickies on wall
+![inline](content/img/cactus.png)
 
 ---
 
 ## The old ways
+
+---
+
 ## Formatting context
+
+---
+
 ## The new ways
 
 ---
 
-## Flexbox properties
+# Break (10m)
 
 ---
+
+# Grid properties
+
+---
+
+## Enable grid
+
+---
+
+## Columns and rows
+
+---
+
+## Units of measure
+
+---
+
+
+## Grid examples
+
+---
+
+## Responsive image gallery
+
+--
 
 ## Break (10m)
 
 ---
 
-## Work on flexbox (30m)
+# Work on grid
 
 ---
 
-## Grid properties (30m)
-
----
-
-## Break (10m)
-
----
-
-## Work on grid (till end)
-
----
-
-# Comment on<br>the meetup
+# Comment on<br>the workshop
 
 ---
 

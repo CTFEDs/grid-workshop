@@ -21,13 +21,6 @@ build-lists: true
 
 # Layouts in the dark ages (the 90s)
 
-- animated gifs, `marquee` etc
-- geocities
-
----
-
-# Layouts in the dark ages (the 90s)
-
 - absolutely no flexibility
 
 ---
@@ -95,45 +88,19 @@ build-lists: true
 
 ---
 
-# Flexbox
-
-- The defining aspect of the flex layout is the ability to alter items' width and/or height to best fit in the available space on any display device.
-
-- A flex container expands items to fill available free space, or shrinks them to prevent overflow.
-
-- Display mode is direction agnostic
-
-^ Block is vertical. Inline is horizontal
-
----
-
-# Flexbox diagram
-
-![inline](content/img/flexboxa.pdf)
-
-^ Flex container
-The parent element in which flex items are contained. A flex container is defined using the flex or inline-flex values of the display property.
-
-^ Flex item
-Each child of a flex container becomes a flex item.
-
-^ Axes
-The main axis is the axis along which the flex items follow each other. The cross axis is the axis perpendicular to the main axis.
-
-^ Directions
-The main start/main end and cross start/cross end sides of the flex container describe the origin and terminus of the flow of flex items
-
----
-
 # Grid
 
-CSS Grid Layout introduces a two dimensional grid system to CSS. Grids can be used to lay out major page area or small user interface elements.
+CSS Grid Layout introduces a two dimensional grid system to CSS.
+
+Grids can be used to lay out major page areas or small user interface elements.
 
 ---
 
 ## What is a grid?
 
-A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows. Onto the grid elements can be placed respecting these column and row lines.
+A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows.
+
+Elements can be placed onto the grid respecting these column and row lines.
 
 ---
 
@@ -159,7 +126,9 @@ A grid is an intersecting set of horizontal and vertical lines – one set defin
 
 ## The Grid container
 
-We create a grid container by declaring `display: grid` or `display: inline-grid` on an element. As soon as we do this all direct children of that element will become grid items.
+We create a grid container by declaring `display: grid` or `display: inline-grid` on an element.
+
+As soon as we do this all direct children of that element will become grid items.
 
 ---
 
