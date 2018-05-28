@@ -1,10 +1,57 @@
 autoscale: true
 build-lists: true
 
-# CSS Grid Layout
+# *CTFEDs*
+
+# CSS grid layout
+
+![](content/img/layout.jpg)
 
 ^
 Here are some things about grid. There are many other things about grid we won't cover. We will point you to those other things
+
+---
+
+# About me
+
+![](content/img/justin.jpeg)
+
+^ Of me
+
+---
+
+
+# What we will do
+
+---
+
+## Recap layout techniques
+
+---
+
+## Grid concepts and properties
+
+---
+
+## Simple grid
+
+![](content/img/grid-simple.png)
+
+---
+
+## Complex layout
+
+![fit](content/img/flamingo.pdf)
+
+---
+
+# What we won't do in detail but is also important
+
+- Box alignment
+
+---
+
+# The old ways
 
 ---
 
@@ -59,7 +106,7 @@ Show first web page from CERN
 
 ---
 
-# Simple grid
+# Simple grid type layout
 
 ![inline](content/img/grid-blocks.pdf)
 
@@ -168,7 +215,7 @@ tears
 
 ---
 
-### Which leads to...
+### And inevitable...
 
 # :rage:
 
@@ -181,6 +228,10 @@ as you write a CSS declaration with a specificity of 120 to change the colour of
 
 ^
 Complex layouts are very difficult with old methods
+
+---
+
+# The new ways
 
 ---
 
@@ -463,4 +514,43 @@ Create three rows at 150px each
 ^Remove the margin on the item
 
 ---
+
+# Complex grid
+
+---
+
+![inline](content/img/flamingo.pdf)
+
+---
+
+![inline](content/img/flamingo-grid.pdf)
+
+---
+
+![inline](content/img/flamingo-grid-filled.pdf)
+
+---
+
+# Work on complex layout
+
+^
+Guided steps
+
+---
+
+# Complex layout
+
+- Open `final/index` in your editor and also in Firefox
+
+^
+Review HTML
+
+---
+
+# Comment on<br>the workshop
+
+---
+
+# Thanks! :smile:
+
 
