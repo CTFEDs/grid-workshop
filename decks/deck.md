@@ -43,11 +43,17 @@ autoscale: true
 
 ---
 
-![inline](content/img/cactus.png)
+![inline](content/img/flamingo.png)
 
 ---
 
-## The old ways
+# What we won't do in detail but is also important
+
+- Box alignment
+
+---
+
+# The old ways
 
 ---
 
@@ -55,7 +61,7 @@ autoscale: true
 
 ---
 
-## The new ways
+# The new ways
 
 ---
 
@@ -86,7 +92,7 @@ autoscale: true
 
 ## Responsive image gallery
 
---
+---
 
 ## Break (10m)
 

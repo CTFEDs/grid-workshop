@@ -3,11 +3,17 @@ build-lists: true
 
 # CSS Grid Layout
 
+^
+Here are some things about grid. There are many other things about grid we won't cover. We will point you to those other things
+
 ---
 
 # The web is fluid
 
-[The first website](http://info.cern.ch/hypertext/WWW/TheProject.html)
+[The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
+
+^
+Show first web page from CERN
 
 ---
 
@@ -16,6 +22,7 @@ build-lists: true
 - Complex nested tables
 - inline styles (such as they were)
 - spacer gifs
+- Flash
 
 ---
 
@@ -52,15 +59,140 @@ build-lists: true
 
 ---
 
+# Simple grid
+
+![inline](content/img/grid-blocks.pdf)
+
+^
+How would you go about doing this assuming no grid/flexbox?
+Floats + nth-of-type
+
+---
+
+# Floats
+
+![inline](content/img/grid-blocks-float.pdf)
+
+^
+As soon as we have different heights we have problems
+
+---
+
+### First...
+
+``` html
+.grid4 .col:nth-of-type(4n+1),
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+  margin-left: 0;
+  clear: left;
+}
+```
+
+---
+
+### And then...
+
+``` html
+@media screen and (max-width: 46.25em) {
+  .grid4 .col {
+    width: 31.2%;
+  }
+  .grid4 .col:nth-of-type(4n+1) {
+    margin-left: 3.2%;
+    clear: none;
+  }
+  .grid4 .col:nth-of-type(3n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+```
+---
+
+### And also...
+
+``` html
+@media screen and (max-width: 37.5em) {
+  .grid4 .col {
+    width: 48.4%;
+  }
+  .grid4 .col:nth-of-type(3n+1) {
+    margin-left: 3.2%;
+    clear: none;
+  }
+  .grid4 .col:nth-of-type(2n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+
+  .grid3 .col {
+    width: 48.4%;
+  }
+  .grid3 .col:nth-of-type(3n+1) {
+    margin-left: 3.2%;
+    clear: none;
+  }
+  .grid3 .col:nth-of-type(2n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+```
+
+---
+
+### Which leads to...
+
+# :grimacing:
+
+^
+frustration
+
+---
+
+### Perhaps even...
+
+# :sob:
+
+^
+tears
+
+---
+
+## So you just give up and download...
+
+---
+
 ![inline](content/img/bootcrap.png)
 
 ---
 
-# Flexbox versus grid
+### Which leads to...
+
+# :rage:
+
+^
+as you write a CSS declaration with a specificity of 120 to change the colour of a button
+
+---
+
+![inline fill](content/img/grid-blocks-complex.pdf)
+
+^
+Complex layouts are very difficult with old methods
+
+---
+
+# What about flexbox?
+
+---
+
+# Flexbox
 
 - flexbox was designed for layout in one dimension, i.e. layout in a row *or* a column
 
-^ share similar features
+^ share similar features e.g. alignment properties
 
 ---
 
@@ -86,11 +218,18 @@ build-lists: true
 
 ![inline](content/img/grid-layout.pdf)
 
+^
+Grid started life in 2011, via a proposal sent to the CSS Working Group from Microsoft
+
 ---
 
 # Grid
 
 CSS Grid Layout introduces a two dimensional grid system to CSS.
+
+---
+
+# Grid
 
 Grids can be used to lay out major page areas or small user interface elements.
 
@@ -99,6 +238,10 @@ Grids can be used to lay out major page areas or small user interface elements.
 ## What is a grid?
 
 A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows.
+
+---
+
+## What is a grid?
 
 Elements can be placed onto the grid respecting these column and row lines.
 
@@ -126,13 +269,13 @@ Elements can be placed onto the grid respecting these column and row lines.
 
 ## The Grid container
 
-We create a grid container by declaring `display: grid` or `display: inline-grid` on an element.
+- We create a grid container by declaring `display: grid` or `display: inline-grid` on an element.
 
-As soon as we do this all direct children of that element will become grid items.
+- As soon as we do this all direct children of that element will become grid items.
 
 ---
 
-# Grid
+# Grid - three columns, two rows
 
 ![inline](content/img/gridline.pdf)
 
@@ -140,43 +283,184 @@ As soon as we do this all direct children of that element will become grid items
 
 ---
 
-## `fr` unit
+![inline](content/img/grid-blocks-complex.pdf)
 
-- Fractional unit
-- `1fr` is for 1 part of the available space
+^
+Back to our complex layout
 
 ---
 
-# Use other CSS features
+![inline](content/img/grid-blocks-complex-with-lines.pdf)
 
-- `content-fill: fit-content` etc
+^
+If we look at this as a grid it becomes far less daunting
 
 ---
 
-# Browser support flexbox
+# CSS measurement units
 
-![inline](content/img/flexbox.png)
+- Fixed units
+
+- Relative units
+
+^
+Before we move on a quick recap of CSS measurement units as they will become relevant later
 
 ---
 
-# Browser support grid
+# Fixed units
 
-![inline](content/img/grid.png)
+- pixel
+- point
+- in
+- cm and mm
+- pc
+
+^
+pooint = 1/72 of an inch
+pc = picas. 1/6 of an inch, or ​1/72 of a foot = 12 pts = 4.23333mm
 
 ---
 
-# CSS `@supports`
+# Relative units
 
-- CSS feature queries
+- em
+- rem
+- ex
+- ch
+- percentage
 
-- `supports` allows us to check whether a browser has implemented a particular CSS feature
+^
+ex = relative to the x-height of the "x" glyph in the current font
+ch = relative to the width of the "0" character in the current font
+percentage - note that browsers do not implement percentage on margins in flex and grid uniformly. CSS working group is discussing this.
+
+---
+
+# Relative units
+
+- vw
+- vh
+- vmin
+- vmax
 
 ^
-modernizr
+vw = 1/100th of the viewport width
+vh = 1/100th of the viewport height
+vmin = 1/100th of the smallest side eg. 900px = 9vmin
+vmax = 1/100th of the largest side eg. 1400px = 140vmax
+
+---
+
+# The `fr` unit
+
+With CSS Grid Layout, we get a new flexible unit: the Fr unit
+
+---
+
+# The `fr` unit
+
+- Fr stands for fractional unit and 1fr is equal to 1 part of the available space.
+
+---
+
+# The `fr` unit
+
+- You can mix fr values with fixed and relative units.
+
 ^
-Can only include code that is supported within @supports tag
+NOTE: fr is not a length unit, but a flexible length unit, which is technically a different type of dimension and is specific for Grid Layout. It can't be combined with ordinary length units via calc() function (i.e. things like calc(1fr - 2em) are not allowed).
+
+---
+
+# Simple grid
+
+![](content/img/grid-simple.png)
+
+---
+
+# Simple grid
+
+Open `grid-demo-simple.html` in your editor and also in Firefox
+
 ^
-No IE
+Note collapsing margins
+
+---
+
+# `Display grid`
+
+- Uncomment `display: grid;`
+
+- Turn on grid lines in the inspector
+
+
 ^
-Problem when @supports is supported but the feature you want to include isn't
+Note margins are no longer collapsing
+
+---
+
+# `grid-template-columns`
+
+- Uncomment `grid-template-columns: 200px 500px;`
+
+^
+The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns.
+Create two columns 200 and 500px respectively
+
+---
+
+# `grid-template-columns`
+
+- Uncomment `grid-template-columns: 1fr 1fr;`
+
+^
+Create two columns that will fill the space
+
+---
+
+# `grid-template-columns`
+
+- Uncomment `grid-template-columns: repeat(2, 200px);`
+
+^
+The repeat() CSS function represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form.
+
+---
+
+# `grid-template-columns`
+
+- Uncomment `grid-template-columns: repeat(auto-fill, 200px);`
+
+^
+Fill the container if you can
+
+---
+
+# `grid-template-rows`
+
+- Uncomment `grid-template-rows: auto;`
+
+^
+The grid-template-rows CSS property defines the line names and track sizing functions of the grid rows.
+Create as many rows as you neeed
+
+---
+
+# `grid-template-rows`
+
+- Uncomment `grid-template-rows: repeat(3, 150px);`
+
+^
+Create three rows at 150px each
+
+---
+
+# `grid-gap`
+
+- Uncomment `grid-gap: 1em;`
+
+^Remove the margin on the item
+
+---
 
