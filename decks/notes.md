@@ -21,7 +21,7 @@ Here are some things about grid. There are many other things about grid we won't
 
 ---
 
-## http://ctfeds.org/grid-2018
+## https://ctfeds.org/grid-2018
 
 ^
 Resources and workshop outline are here
