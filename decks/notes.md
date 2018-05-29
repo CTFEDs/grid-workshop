@@ -21,6 +21,19 @@ Here are some things about grid. There are many other things about grid we won't
 
 ---
 
+## http://ctfeds.org/grid-2018
+
+^
+Resources and workshop outline are here
+
+---
+
+## https://github.com/CTFEDs/grids
+
+^
+Grid examples and material for the workshop is here
+
+---
 
 # What we will do
 
@@ -333,6 +346,18 @@ Elements can be placed onto the grid respecting these column and row lines.
 
 ---
 
+# Can we use CSS grid now?
+
+- [Can I Use](https://caniuse.com/#feat=css-grid)
+
+^
+Look at Can I Use
+Show country stats
+Show relative use
+Import user analytics
+
+---
+
 ## The Grid container
 
 - We create a grid container by declaring `display: grid` or `display: inline-grid` on an element.
@@ -547,6 +572,9 @@ Create three rows at 150px each
 ---
 
 ![inline](content/img/flamingo.pdf)
+
+^
+https://dribbble.com/shots/4312656-Animalia - Adjara Design
 
 ---
 
