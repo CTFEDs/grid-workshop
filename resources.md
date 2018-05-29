@@ -19,6 +19,8 @@ title: Resources
 
 - [Grid reference](https://tympanus.net/codrops/css_reference/grid/)
 
+- [CSS Layout News](http://csslayout.news/)
+
 - [Grid Slideshow](https://tympanus.net/Development/GridLayoutSlideshow/)
 
 - [Grid bugs](https://github.com/rachelandrew/gridbugs)

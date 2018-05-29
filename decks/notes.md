@@ -450,8 +450,9 @@ percentage - note that browsers do not implement percentage on margins in flex a
 ^
 vw = 1/100th of the viewport width
 vh = 1/100th of the viewport height
-vmin = 1/100th of the smallest side eg. 900px = 9vmin
-vmax = 1/100th of the largest side eg. 1400px = 140vmax
+vmin uses the ratio of the smallest side. That is, if the height of the browser window is less than its width, 1vmin will be equivalent to 1vh. If the width of the browser is less than it’s height, 1vmin is equvialent to 1vw.
+vmax is the opposite: it uses the largest side. So 1vmax is equivalent to 1vw if the viewport is wider than it is tall; if the browser is taller than it is wide, 1vmax will be equivalent to 1vh.
+Substitution for orientation media queries
 
 ---
 
