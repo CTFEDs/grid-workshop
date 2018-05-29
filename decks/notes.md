@@ -1,5 +1,6 @@
 autoscale: true
 build-lists: true
+theme: Next
 
 # *CTFEDs*
 
@@ -14,7 +15,7 @@ Here are some things about grid. There are many other things about grid we won't
 
 # About me
 
-![](content/img/justin.jpeg)
+![](content/img/justin.jpg)
 
 ^ Of me
 
@@ -48,6 +49,16 @@ Here are some things about grid. There are many other things about grid we won't
 # What we won't do in detail but is also important
 
 - Box alignment
+
+- Grid template areas
+
+---
+
+![inline](content/img/jon-gold-design-layouts.png)
+
+^
+Two reasons for this. We are constrained by our tools. People have become accustomed to these layouts so we believe they "work".
+
 
 ---
 
@@ -215,12 +226,16 @@ tears
 
 ---
 
-### And inevitable...
+### And the inevitable...
 
 # :rage:
 
 ^
 as you write a CSS declaration with a specificity of 120 to change the colour of a button
+
+---
+
+## Now what if you had a grid that looked like this?
 
 ---
 
@@ -331,6 +346,18 @@ Elements can be placed onto the grid respecting these column and row lines.
 ![inline](content/img/gridline.pdf)
 
 ^ It should be noted that when we define a grid we define the grid tracks, not the lines. Grid then gives us numbered lines to use when positioning items. In our three column, two row grid we have four column lines.
+
+---
+
+# Grid - three columns, two rows
+
+``` CSS
+div {
+  display: grid;
+  grid-template columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+}
+```
 
 ---
 
@@ -538,14 +565,41 @@ Guided steps
 
 ---
 
+# Paper exercise
+
+With a partner map out item grid and row placement using the handout
+
+^ 10 minutes
+
+---
+
 # Complex layout
 
-- Open `final/index` in your editor and also in Firefox
+- Open `final/index.html` in your editor and also in Firefox
 
 ^
 Review HTML
 
 ---
+
+# Main
+
+Add:
+
+- `display: grid;`
+
+- `grid-template-columns: 80px repeat(7, 1fr);`
+
+- `grid-template-rows: repeat(6, auto);`
+
+^
+Inspect with grid inspector after each step
+
+
+---
+
+
+
 
 # Comment on<br>the workshop
 
