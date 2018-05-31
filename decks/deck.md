@@ -63,6 +63,8 @@ Grid examples and material for the workshop is here
 
 - Box alignment
 
+- Writing modes
+
 - Grid template areas
 
 ---
