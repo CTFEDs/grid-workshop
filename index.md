@@ -11,7 +11,6 @@ The source for this workshop is available as a git repository on GitHub: [CTFEDs
 
 ## Documents
 
-* [Workshop Outline](workshop-outline/)
-* [Workshop slides](deck.pdf) (PDF, 4MB)
+* [Workshop slides](deck.pdf) (PDF, 9.3MB)
     * [Deckset](http://decksetapp.com/)-flavoured markdown that it comes from: [deck.md](/decks/deck.md)
 
