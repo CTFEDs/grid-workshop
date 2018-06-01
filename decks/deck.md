@@ -1,6 +1,12 @@
 autoscale: true
 build-lists: true
-theme: Next
+theme: Next larger
+
+## What's one thing you know about layout CSS? Write it on a sticky.
+
+## Introduce yourself to someone new, and share your answer
+
+---
 
 # *CTFEDs*
 
@@ -13,11 +19,11 @@ Here are some things about grid. There are many other things about grid we won't
 
 ---
 
-# About me
+# About us
 
-![](content/img/justin.jpg)
+![](content/img/justin.jpg)![](content/img/steve.jpg)
 
-^ Of me
+^ Of us
 
 ---
 
@@ -61,11 +67,11 @@ Grid examples and material for the workshop is here
 
 # What we won't do in detail but is also important
 
-- Box alignment
+- ### Box alignment
 
-- Writing modes
+- ### Writing modes
 
-- Grid template areas
+- ### Grid template areas
 
 ---
 
@@ -83,7 +89,7 @@ Two reasons for this. We are constrained by our tools. People have become accust
 
 # The web is fluid
 
-[The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
+## [The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
 ^
 Show first web page from CERN
@@ -92,23 +98,25 @@ Show first web page from CERN
 
 # Layouts in the dark ages (the 90s)
 
-- Complex nested tables
-- inline styles (such as they were)
-- spacer gifs
-- Flash
+- ### Complex nested tables
+
+- ### inline styles (such as they were)
+
+- ### spacer gifs
+
+- ### Flash
+
 
 ---
 
-# Layouts in the dark ages (the 90s)
-
-- absolutely no flexibility
+## Absolutely no flexibility
 
 ---
-
-# Table layouts
 
 ``` html
-<TABLE BGCOLOR="#CCCCFF" BORDER=10 BORDERCOLOR="#0000FF" BORDERCOLORLIGHT="#33CCFF" BORDERCOLORDARK="#0000CC" WIDTH="80%" ALIGN="CENTER">
+<TABLE BGCOLOR="#CCCCFF" BORDER=10 BORDERCOLOR="#0000FF"
+BORDERCOLORLIGHT="#33CCFF" BORDERCOLORDARK="#0000CC"
+WIDTH="80%" ALIGN="CENTER">
   <TR>
     <TD>
       <H1 align="center">
@@ -125,10 +133,14 @@ Show first web page from CERN
 
 # Table-less layouts – divs, floats and positioning
 
-- separation of presentation and content
-- floats
-- absolute and relative positioning
-- media queries
+- ## separation of presentation and content
+
+- ## floats
+
+- ## absolute and relative positioning
+
+- ## media queries
+
 
 ---
 
@@ -271,7 +283,7 @@ Complex layouts are very difficult with old methods
 
 # Flexbox
 
-- flexbox was designed for layout in one dimension, i.e. layout in a row *or* a column
+## flexbox was designed for layout in one dimension, i.e. layout in a row *or* a column
 
 ^ share similar features e.g. alignment properties
 
@@ -291,7 +303,7 @@ Complex layouts are very difficult with old methods
 
 # Flexbox versus grid
 
-- Grid was designed for two-dimensional layout, i.e. layout in rows and columns at the same time
+## Grid was designed for two-dimensional layout, i.e. layout in rows and columns at the same time
 
 ---
 
@@ -306,41 +318,50 @@ Grid started life in 2011, via a proposal sent to the CSS Working Group from Mic
 
 # Grid
 
-CSS Grid Layout introduces a two dimensional grid system to CSS.
+## CSS Grid Layout introduces a two dimensional grid system to CSS.
 
 ---
 
 # Grid
 
-Grids can be used to lay out major page areas or small user interface elements.
+## Grids can be used to lay out major page areas or small user interface elements.
 
 ---
 
 ## What is a grid?
 
-A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows.
+## A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows.
 
 ---
 
-## What is a grid?
+# What is a grid?
 
-Elements can be placed onto the grid respecting these column and row lines.
+## Elements can be placed onto the grid respecting these column and row lines.
 
 ---
 
 ## Features
 
-- Fixed and flexible track sizes
-- Item placement
-- Creation of additional tracks to hold content
-- Alignment control
-- Control of overlapping content
+- ## Fixed and flexible track sizes
+
+- ## Item placement
+
+- ## Creation of additional tracks to hold content
+
 
 ^You can create a grid with fixed track sizes – using pixels for example. You can also create a grid using flexible sizes with percentages or with the new fr unit designed for this purpose.
 
 ^ You can place items into a precise location on the grid using line numbers, names or by targeting an area of the grid. Grid also contains an algorithm to control the placement of items not given an explicit position on the grid.
 
 ^ You can define an explicit grid with grid layout but the specification also deals with content added outside of a declared grid, adding additional rows and columns as needed. Features such as adding “as many columns as will fit into a container” are included.
+
+---
+
+## Features
+
+- ## Alignment control
+
+- ## Control of overlapping content
 
 ^ Grid contains alignment features in order that we can control how items align once placed into a grid area, and how the entire grid is aligned.
 
@@ -362,9 +383,9 @@ Import user analytics
 
 ## The Grid container
 
-- We create a grid container by declaring `display: grid` or `display: inline-grid` on an element.
+- ## We create a grid container by declaring `display: grid` or `display: inline-grid` on an element.
 
-- As soon as we do this all direct children of that element will become grid items.
+- ## As soon as we do this all direct children of that element will become grid items.
 
 ---
 
@@ -404,9 +425,9 @@ If we look at this as a grid it becomes far less daunting
 
 # CSS measurement units
 
-- Fixed units
+- ## Fixed units
 
-- Relative units
+- ## Relative units
 
 ^
 Before we move on a quick recap of CSS measurement units as they will become relevant later
@@ -415,11 +436,20 @@ Before we move on a quick recap of CSS measurement units as they will become rel
 
 # Fixed units
 
-- pixel
-- point
-- in
-- cm and mm
-- pc
+- ## ## pixel
+
+
+- ## ## point
+
+
+- ## ## in
+
+
+- ## ## cm and mm
+
+
+- ## ## pc
+
 
 ^
 pooint = 1/72 of an inch
@@ -429,11 +459,16 @@ pc = picas. 1/6 of an inch, or ​1/72 of a foot = 12 pts = 4.23333mm
 
 # Relative units
 
-- em
-- rem
-- ex
-- ch
-- percentage
+- ## em
+
+- ## rem
+
+- ## ex
+
+- ## ch
+
+- ## percentage
+
 
 ^
 ex = relative to the x-height of the "x" glyph in the current font
@@ -444,10 +479,14 @@ percentage - note that browsers do not implement percentage on margins in flex a
 
 # Relative units
 
-- vw
-- vh
-- vmin
-- vmax
+- ## vw
+
+- ## vh
+
+- ## vmin
+
+- ## vmax
+
 
 ^
 vw = 1/100th of the viewport width
@@ -460,19 +499,25 @@ Substitution for orientation media queries
 
 # The `fr` unit
 
-With CSS Grid Layout, we get a new flexible unit: the Fr unit
+- ## With CSS Grid Layout, we get a new flexible unit:
+
+- ## the Fr unit
 
 ---
 
 # The `fr` unit
 
-- Fr stands for fractional unit and 1fr is equal to 1 part of the available space.
+- ## Fr stands for fractional unit
+
+- ## 1fr is equal to 1 part of the available space.
 
 ---
 
 # The `fr` unit
 
-- You can mix fr values with fixed and relative units.
+- ## You can mix fr values with fixed units
+
+- ## You can mix fr values with relative units
 
 ^
 NOTE: fr is not a length unit, but a flexible length unit, which is technically a different type of dimension and is specific for Grid Layout. It can't be combined with ordinary length units via calc() function (i.e. things like calc(1fr - 2em) are not allowed).
@@ -487,19 +532,21 @@ NOTE: fr is not a length unit, but a flexible length unit, which is technically 
 
 # Simple grid
 
-Open `grid-demo-simple.html` in your editor and also in Firefox
+- ## Open `grid-demo-simple.html` in your editor and also in Firefox
+
+- ## Open `grid-demo-simple.html` in Firefox
 
 ^
+Show inspector and FF's grid tools
 Note collapsing margins
 
 ---
 
 # `Display grid`
 
-- Uncomment `display: grid;`
+- ## Uncomment `display: grid;`
 
-- Turn on grid lines in the inspector
-
+- ## Turn on grid lines in the inspector
 
 ^
 Note margins are no longer collapsing
@@ -628,7 +675,185 @@ Inspect with grid inspector after each step
 
 ---
 
-# Adding more steps here
+# h2
+
+- `grid-column: 2 / 4;`
+
+-  `grid-row: 1 / 1;`
+
+---
+
+# .read-more
+
+- `grid-column: 6 / 7;`
+
+- `grid-row: 1 / 4;`
+
+---
+
+# nav
+
+- `grid-column: 8 / 9;`
+
+- `grid-row: 1 / 1;`
+
+---
+
+# h3
+
+- `grid-column: 2 / 6;`
+
+- `grid-row: 2 / 2;`
+
+---
+
+# descriptive-text
+
+- `grid-column: 2 / 6;`
+
+- `grid-row: 3 / 4;`
+
+---
+
+# nav-buttons
+
+- `grid-column: 8 / 9;`
+
+- `grid-row: 2 / 4;`
+
+---
+
+# h1
+
+- `grid-column: 2 / 6;`
+
+- `grid-row: 4 / 4;`
+
+- `z-index: 2;`
+
+---
+
+# image
+
+- `grid-column: 1 / 8;`
+
+- `grid-row: 4 / 5;`
+
+---
+
+# external-links
+
+- `grid-column: 8 / 9;`
+
+- `grid-row: 4 /5;`
+
+---
+
+# classification
+
+- `grid-row: 5 /6;`
+
+---
+
+#kingdom
+
+- `grid-column: 2 / 3;`
+
+---
+
+# phylum
+
+- `grid-column: 3 / 4;`
+
+---
+
+# designation
+
+- `grid-column: 4 / 5;`
+
+---
+
+# rank
+
+- `grid-column: 5 / 6;`
+
+---
+
+# show-all
+
+- `grid-column: 6 / 7;`
+
+- `grid-row: 5 /8;`
+
+---
+
+# number
+
+- `grid-column: 8 / 9;`
+
+- `grid-row: 5 /6;`
+
+---
+
+# Alignment
+
+^ Everything should be on the grid but we need to do so alignment
+Alignment module
+Won't discuss in detail
+
+---
+
+# nav-buttons
+
+- `align-self: center;`
+
+---
+
+# read-more
+
+- `display: flex;`
+
+- `writing-mode: vertical-lr;`
+
+---
+
+# h1
+
+- `align-self: center;`
+
+---
+
+# external-links
+
+- `writing-mode: vertical-lr;`
+
+- `display: flex;`
+
+- `align-items: flex-end;`
+
+- `justify-content: center;`
+
+---
+
+# show-all
+
+- `display: flex;`
+
+- `writing-mode: vertical-lr;`
+
+---
+
+# number
+
+- `align-items: center;`
+
+- `display: flex;`
+
+---
+
+# main
+
+- `height: 100vh`
 
 ---
 
