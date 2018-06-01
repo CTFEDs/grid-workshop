@@ -75,7 +75,7 @@ Two reasons for this. We are constrained by our tools. People have become accust
 
 # The web is fluid
 
-## [The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
+[The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
 ^
 Show first web page from CERN
