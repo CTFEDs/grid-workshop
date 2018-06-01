@@ -4,7 +4,7 @@ theme: Next larger
 
 ## What's one thing you know about layout CSS? Write it on a sticky.
 
-## Introduce yourself to someone new, and share your answer
+### Introduce yourself to someone new, and share your answer
 
 ---
 
@@ -24,20 +24,6 @@ Here are some things about grid. There are many other things about grid we won't
 ![](content/img/justin.jpg)![](content/img/steve.jpg)
 
 ^ Of us
-
----
-
-## https://ctfeds.org/grid-2018
-
-^
-Resources and workshop outline are here
-
----
-
-## https://github.com/CTFEDs/grids
-
-^
-Grid examples and material for the workshop is here
 
 ---
 
