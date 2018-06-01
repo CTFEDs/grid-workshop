@@ -1,3 +1,5 @@
+autoscale: true
+
 # https://ctfeds.org/grid-2018
 
 ^
