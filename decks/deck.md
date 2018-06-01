@@ -233,7 +233,7 @@ tears
 
 ---
 
-## So you just give up and download...
+## So we just give up and download...
 
 ---
 
