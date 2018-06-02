@@ -843,7 +843,11 @@ Won't discuss in detail
 
 ---
 
-# Comment on<br>the workshop
+# Workshop feedback
+
+- Write one thing you enjoyed about the workshop
+
+- Write one thing that can be improved
 
 ---
 
