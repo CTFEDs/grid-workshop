@@ -422,19 +422,19 @@ Before we move on a quick recap of CSS measurement units as they will become rel
 
 # Fixed units
 
-- ## ## pixel
+- ## pixel
 
 
-- ## ## point
+- ## point
 
 
-- ## ## in
+- ## in
 
 
-- ## ## cm and mm
+- ## cm and mm
 
 
-- ## ## pc
+- ## pc
 
 
 ^
@@ -487,23 +487,23 @@ Substitution for orientation media queries
 
 - ## With CSS Grid Layout, we get a new flexible unit:
 
-- ## the Fr unit
+- ## the `fr` unit
 
 ---
 
 # The `fr` unit
 
-- ## Fr stands for fractional unit
+- ## `fr` stands for fractional unit
 
-- ## 1fr is equal to 1 part of the available space.
+- ## `1fr` is equal to 1 part of the available space.
 
 ---
 
 # The `fr` unit
 
-- ## You can mix fr values with fixed units
+- ## You can mix `fr` values with fixed units
 
-- ## You can mix fr values with relative units
+- ## You can mix `fr` values with relative units
 
 ^
 NOTE: fr is not a length unit, but a flexible length unit, which is technically a different type of dimension and is specific for Grid Layout. It can't be combined with ordinary length units via calc() function (i.e. things like calc(1fr - 2em) are not allowed).
