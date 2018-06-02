@@ -422,19 +422,19 @@ Before we move on a quick recap of CSS measurement units as they will become rel
 
 # Fixed units
 
-- ## ## pixel
+- ## pixel
 
 
-- ## ## point
+- ## point
 
 
-- ## ## in
+- ## in
 
 
-- ## ## cm and mm
+- ## cm and mm
 
 
-- ## ## pc
+- ## pc
 
 
 ^
