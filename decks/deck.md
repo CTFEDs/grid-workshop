@@ -272,6 +272,7 @@ Complex layouts are very difficult with old methods
 ## flexbox was designed for layout in one dimension, i.e. layout in a row *or* a column
 
 ^ share similar features e.g. alignment properties
+Flexbox isn’t really intended for page layout, its more for components (as its impossible to do things like match flex-item heights across multiple rows)
 
 ---
 
@@ -422,19 +423,19 @@ Before we move on a quick recap of CSS measurement units as they will become rel
 
 # Fixed units
 
-- ## pixel
+- ## `pixel`
 
 
-- ## point
+- ## `point`
 
 
-- ## in
+- ## `in`
 
 
-- ## cm and mm
+- ## `cm and mm`
 
 
-- ## pc
+- ## `pc`
 
 
 ^
@@ -445,15 +446,15 @@ pc = picas. 1/6 of an inch, or ​1/72 of a foot = 12 pts = 4.23333mm
 
 # Relative units
 
-- ## em
+- ## `em`
 
-- ## rem
+- ## `rem`
 
-- ## ex
+- ## `ex`
 
-- ## ch
+- ## `ch`
 
-- ## percentage
+- ## `percentage`
 
 
 ^
@@ -465,13 +466,13 @@ percentage - note that browsers do not implement percentage on margins in flex a
 
 # Relative units
 
-- ## vw
+- ## `vw`
 
-- ## vh
+- ## `vh`
 
-- ## vmin
+- ## `vmin`
 
-- ## vmax
+- ## `vmax`
 
 
 ^
@@ -783,9 +784,10 @@ Inspect with grid inspector after each step
 
 # Alignment
 
-^ Everything should be on the grid but we need to do so alignment
+^ Everything should be on the grid but we need to do some alignment
 Alignment module
 Won't discuss in detail
+Point to Rachel Andrew's "Box Alignment" cheatsheet
 
 ---
 
@@ -852,5 +854,3 @@ Won't discuss in detail
 ---
 
 # Thanks! :smile:
-
-
