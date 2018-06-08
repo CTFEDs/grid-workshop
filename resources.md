@@ -9,6 +9,8 @@ title: Resources
 
 - [The Story of CSS Grid, from Its Creators](http://alistapart.com/article/the-story-of-css-grid-from-its-creators)
 
+- [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag)
+
 - [Grid by example](http://gridbyexample.com/)
 
 - [Grid layout on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
@@ -24,4 +26,6 @@ title: Resources
 - [Grid Slideshow](https://tympanus.net/Development/GridLayoutSlideshow/)
 
 - [Grid bugs](https://github.com/rachelandrew/gridbugs)
+
+- [Box alignment](https://rachelandrew.co.uk/css/cheatsheets/box-alignment)
 

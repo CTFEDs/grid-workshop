@@ -75,7 +75,7 @@ Two reasons for this. We are constrained by our tools. People have become accust
 
 # The web is fluid
 
-## [The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
+[The first web page](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
 ^
 Show first web page from CERN
@@ -272,6 +272,7 @@ Complex layouts are very difficult with old methods
 ## flexbox was designed for layout in one dimension, i.e. layout in a row *or* a column
 
 ^ share similar features e.g. alignment properties
+Flexbox isn’t really intended for page layout, its more for components (as its impossible to do things like match flex-item heights across multiple rows)
 
 ---
 
@@ -388,7 +389,7 @@ Import user analytics
 ``` CSS
 div {
   display: grid;
-  grid-template columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px;
 }
 ```
@@ -422,19 +423,19 @@ Before we move on a quick recap of CSS measurement units as they will become rel
 
 # Fixed units
 
-- ## ## pixel
+- ## `pixel`
 
 
-- ## ## point
+- ## `point`
 
 
-- ## ## in
+- ## `in`
 
 
-- ## ## cm and mm
+- ## `cm and mm`
 
 
-- ## ## pc
+- ## `pc`
 
 
 ^
@@ -445,15 +446,15 @@ pc = picas. 1/6 of an inch, or ​1/72 of a foot = 12 pts = 4.23333mm
 
 # Relative units
 
-- ## em
+- ## `em`
 
-- ## rem
+- ## `rem`
 
-- ## ex
+- ## `ex`
 
-- ## ch
+- ## `ch`
 
-- ## percentage
+- ## `percentage`
 
 
 ^
@@ -465,13 +466,13 @@ percentage - note that browsers do not implement percentage on margins in flex a
 
 # Relative units
 
-- ## vw
+- ## `vw`
 
-- ## vh
+- ## `vh`
 
-- ## vmin
+- ## `vmin`
 
-- ## vmax
+- ## `vmax`
 
 
 ^
@@ -487,23 +488,23 @@ Substitution for orientation media queries
 
 - ## With CSS Grid Layout, we get a new flexible unit:
 
-- ## the Fr unit
+- ## the `fr` unit
 
 ---
 
 # The `fr` unit
 
-- ## Fr stands for fractional unit
+- ## `fr` stands for fractional unit
 
-- ## 1fr is equal to 1 part of the available space.
+- ## `1fr` is equal to 1 part of the available space.
 
 ---
 
 # The `fr` unit
 
-- ## You can mix fr values with fixed units
+- ## You can mix `fr` values with fixed units
 
-- ## You can mix fr values with relative units
+- ## You can mix `fr` values with relative units
 
 ^
 NOTE: fr is not a length unit, but a flexible length unit, which is technically a different type of dimension and is specific for Grid Layout. It can't be combined with ordinary length units via calc() function (i.e. things like calc(1fr - 2em) are not allowed).
@@ -783,9 +784,10 @@ Inspect with grid inspector after each step
 
 # Alignment
 
-^ Everything should be on the grid but we need to do so alignment
+^ Everything should be on the grid but we need to do some alignment
 Alignment module
 Won't discuss in detail
+Point to Rachel Andrew's "Box Alignment" cheatsheet
 
 ---
 
@@ -843,10 +845,12 @@ Won't discuss in detail
 
 ---
 
-# Comment on<br>the workshop
+# Workshop feedback
+
+- Write one thing you enjoyed about the workshop
+
+- Write one thing that can be improved
 
 ---
 
 # Thanks! :smile:
-
-
