@@ -2,6 +2,14 @@ autoscale: true
 build-lists: true
 theme: Next larger
 
+
+# Do not create a framework
+
+# Use calc
+
+
+
+
 ## What's one thing you know about layout CSS? Write it on a sticky.
 
 ### Introduce yourself to someone new, and share your answer
